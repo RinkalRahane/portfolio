@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      
+      <div class="logo">Rinkal Rahane</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Rinkal Rahane</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="assests\ChatGPT Image Jun 14, 2025, 04_26_06 PM-Photoroom.jpg" alt="Rinkal Rahane profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Rinkal Rahane</h1>
+        <p class="section__text__p2"> B.tech (AIML) Student</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('assests\\updated resume.docx')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/linkedin.png?raw=true"
+            src=""
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/rinkal-rahane-98138a31b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'"
+          />
+          <img
+            src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/github.png?raw=true"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/RinkalRahane'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div>
+
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/experience.png?raw=true"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Skills</h3>
+              <p> UI/UX<br/>Frontend Development<br/>Python Developer<br/>Communication <br/> Data Visualization</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/education.png?raw=true"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Persuing B.tech in Cse(AIML) from <br/>
+                Sanjivani University, Kopargaon.</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Motivated and dedicated second-year Computer Science with AIML specialization student with a strong passion for coding and problem solving. Proven ability to work collaboratively on projects, with a strong commitment to continuous learning. Proficient in programming languages such as PYTHON, HTML and CSS, with a keen  interest in web development.    </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/arrow.png?raw=true
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Technical Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/checkmark.png?raw=true"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/checkmark.png?raw=true"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/checkmark.png?raw=true"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Javscript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/checkmark.png?raw=true"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>R</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/checkmark.png?raw=true"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/checkmark.png?raw=true"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/checkmark.png?raw=true"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Canva and Figma</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/checkmark.png?raw=true"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>UI/UX</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Soft Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/checkmark.png?raw=true"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Problem-solving</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/checkmark.png?raw=true"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Communication</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/checkmark.png?raw=true"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Teamwork</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/checkmark.png?raw=true"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Leadership</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/arrow.png?raw=true"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://media.istockphoto.com/id/1214054918/vector/budget-management-app-personal-financial-control-cash-flow-tiny-woman-manages-the-personal.jpg?s=612x612&w=0&k=20&c=kPffn0lXROiTyEdrzXRNSb5bsnatjJgldNC4NAcAeWo="
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Expense Tracker</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/RinkalRahane/Expense-Tracker'"
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBgaJrCefIZn-pIOPFohwSZSVNXkQfOd_PYJ3VJ5mVPv3hxYTX39J3Rj2gTZpaZebwzPI&usqp=CAU"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Creating Matplotlib Library</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/RinkalRahane/Matplotlib.ipynb'"
+              >
+                Github
+              </button>
+              
+            </div>
+            
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQon17tf5OsgYvFOwytREJ58wc-h0xvTmlT3A&s"
+                alt="Project 4"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Resume Checker using NLP</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/RinkalRahane/Resume_Checker.git'"
+              >
+                Github
+              </button>
+              
+            </div>
+            
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://mir-s3-cdn-cf.behance.net/projects/404/50aac4124914667.Y3JvcCwxMjgwLDEwMDEsMCwxMg.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Portfolio</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/arrow.png?raw=true"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">If interested for working with me</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/email.png?raw=true"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">rinkalrahane88@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/linkedin.png?raw=true"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/rinkal-rahane-98138a31b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="data:image/png;base64,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"
+            alt="call icon"
+            class="icon contact-icon"
+          />
+          <p>8856914258</p>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Rinkal Rahane. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
